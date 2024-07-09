@@ -1,10 +1,10 @@
 import Header from "./Header.jsx"
 function App() {
   return (
-    <header>
+    <Header>
       
 
-    </header>
+    </Header>
   );
 
 }
