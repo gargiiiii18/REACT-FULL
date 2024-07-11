@@ -4,6 +4,7 @@ import Footer from "./Footer.jsx"
 import Card from "./Card.jsx"
 import Button from "./Button.jsx"
 import Button1 from "./Button/Button1.jsx"
+import Students from "./Students.jsx"
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
     <Button/>
     <br></br>
     <Button1/>
+    <br></br>
+    <Students name="Kobbie Mainoo" age={19} isBestYoungPlayer={true}/>
     
 
     </>
