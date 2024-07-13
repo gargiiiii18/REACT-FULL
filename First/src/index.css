@@ -37,12 +37,12 @@ p:hover{
 
 .student{
   font-family: Arial, sans-serif;
-  font-size: 2em;
+  font-size: 15px;
   padding: 10px;
   border: 1px solid black;
   color: red;
 }
 
 .student p.hover{
-  size: 10em;
+  size: 6em;
 }
