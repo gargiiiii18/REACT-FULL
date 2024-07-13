@@ -18,7 +18,8 @@ function App() {
     <br></br>
     <Button1/>
     <br></br>
-    <Students name="Kobbie Mainoo" age={19} isBestYoungPlayer={true}/>
+    <Students name="Kobbie Mainoo" age={19} position="CDM" isBestYoungPlayer={true}/>
+    <Students name="Alejandro Garnacho" age={20} position="RW" isBestYoungPlayer={true}/>
     
 
     </>
