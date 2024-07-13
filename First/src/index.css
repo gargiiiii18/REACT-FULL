@@ -46,3 +46,20 @@ p:hover{
 .student p.hover{
   size: 6em;
 }
+
+.welcome-message{
+  font-size: 25px;
+  background-color: rgb(7, 247, 7);
+  color:white;
+  padding: 10px;
+  border-radius: 5px;
+  margin:2px;
+}
+.login-prompt{
+  font-size: 25px;
+  background-color: red;
+  color:white;
+  padding: 10px;
+  border-radius: 5px;
+  margin:2px;
+}
