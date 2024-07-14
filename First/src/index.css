@@ -12,18 +12,18 @@
 }
 
 h2{
-  color:rgb(209, 212, 23)
+  color:rgb(9, 181, 224)
 }
 
 p{
-  color:blue
+  color:red;
 }
 h2:hover{
-  color:greenyellow
+  color:rgb(9, 181, 224)
 }
 
 p:hover{
-  color:red
+  color:blue;
 }
 
 .button{
