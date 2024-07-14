@@ -6,6 +6,7 @@ import Button from "./Button.jsx"
 import Button1 from "./Button/Button1.jsx"
 import Students from "./Students.jsx"
 import UserGreetings from "./UserGreetings.jsx"
+import List from "./List.jsx"
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
     <Students name="Rasmus Højlund" age={21} position="ST" isBestYoungPlayer={true}/>
     <br></br>
     <UserGreetings isLoggedIn={true} username="Rashy"/>
+    <br></br>
+    <List/>
     
 
     </>
