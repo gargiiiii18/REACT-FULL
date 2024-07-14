@@ -10,7 +10,12 @@ function List() {
     fruits.sort((a,b) => b.calories - a.calories);
     // fruits.sort((a,b) => a.calories - b.calories);  Ascending order of calories value
     
+    // const lowCalFruits = fruits.filter(fruit => fruit.calories < 100);
 
+    // const listItems = lowCalFruits.map((lowCalFruit, index) => <li key={index}>{lowCalFruit.name}: &nbsp;
+    //                                                    <b>{lowCalFruit.calories}</b></li>);
+    // return (<ol>{listItems}</ol>);
+// -------------------------------------------------------------------------------------------------------------------
 
     const listItems = fruits.map((fruit, index) => <li key={index}>{fruit.name}: &nbsp;
                                                        <b>{fruit.calories}</b></li>);
