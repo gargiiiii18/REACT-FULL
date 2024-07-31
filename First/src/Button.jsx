@@ -1,6 +1,8 @@
 function Button() {
+    const handleClick = () => alert("OUCH🤣");
 return(
-    <button className="button">Dabao!!!</button>
+    
+    <button onClick={handleClick} className="button">Dabao👩‍💻!!!</button>
 
 );
 }
