@@ -25,7 +25,6 @@ function changeClick(){
   return (
     <>
     <Header/>
-    <h1>Hellooooo</h1>
     <div className="cards">
     {
       people.map(item=>(
